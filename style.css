@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+#navbar{
+    height: 80px;
+    background-color: rgb(255, 220, 220);
+    padding-right: 50px;
+}
+#hero{
+    height: calc(100vh - 80px);
+    background-image: url(https://static1.squarespace.com/static/61e8bb2a2cf8670534839093/61e929b81b87bd193091ece2/66054f1ec6eb841c9dbe9ace/1744625819279/image3.jpg?format=1500w);
+    background-color: rgb(255, 242, 235);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#logo{
+    height: 80px;
+    margin-left: 50px;
+}
+li{
+    display: inline;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    margin-left: 25px;
+    margin-right: 80px;
+}
+ul{
+    float: right;
+    margin-top: 25px;
+}
+button{
+    float: right;
+    font-size: 25px;
+    height: 40px;
+    width: 200px;
+}
